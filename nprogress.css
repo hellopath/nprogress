@@ -49,8 +49,8 @@
   border-left-color: #29d;
   border-radius: 50%;
 
-  -webkit-animation: nprogress-spinner 400ms linear infinite;
-          animation: nprogress-spinner 400ms linear infinite;
+  -webkit-animation: nprogress-spinner 800ms cubic-bezier(0.87, 0, 0.13, 1) infinite;
+          animation: nprogress-spinner 800ms cubic-bezier(0.87, 0, 0.13, 1) infinite;
 }
 
 .nprogress-custom-parent {
